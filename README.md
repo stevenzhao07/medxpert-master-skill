@@ -1,6 +1,6 @@
 # MedXpert Master Skill
 
-> 医疗器械全生命周期总入口 · 只装这一个，就能用到全部10个Skill的能力
+> 医疗器械全生命周期总入口 · 只装这一个，就能用到全部11个Skill的能力
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## 这是什么？
 
-你不需要装10个Skill——只需要装这一个Master Skill。
+你不需要装11个Skill——只需要装这一个Master Skill。
 
 它就像一个路由器：你问任何医疗器械相关的问题，它自动判断该用哪个子Skill来回答。
 
@@ -29,6 +29,7 @@
 | 发补信怎么回？ | → 发补回复Skill |
 | 临床评价怎么做？ | → 临床评价Skill |
 | AI/SaMD怎么分类？ | → 医疗AI专用Skill |
+| 标签/说明书(IFU)怎么写？ | → 标签说明书Skill |
 | 风险管理报告怎么写？ | → 风险管理Skill |
 | 第三方检测怎么选？ | → 检测机构选择Skill |
 | 找代工厂要注意什么？ | → 委托生产Skill |
@@ -40,7 +41,7 @@
 ## 安装
 
 ```bash
-npx skills add https://github.com/medxpert/medxpert-master-skill
+npx skills add https://github.com/stevenzhao07/medxpert-master-skill
 ```
 
 安装后直接说：
